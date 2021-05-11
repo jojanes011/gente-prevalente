@@ -3,7 +3,7 @@ export default function Buttons({ className }) {
         <div className={`${className} w-full h-56 justify-self-center`}>
             <div className='flex flex-col items-center justify-center'>
                 <div className='m-3'>
-                    <button className='bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center'>
+                    <button className='flex flex-row justify-center w-60 bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center'>
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
                             className='h-5 w-5'
@@ -20,7 +20,7 @@ export default function Buttons({ className }) {
                 </div>
 
                 <div className='m-3'>
-                    <button className='bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center'>
+                    <button className='flex flex-row justify-center w-60 bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center'>
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
                             className='h-5 w-5'
