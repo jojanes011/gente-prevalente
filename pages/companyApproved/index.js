@@ -1,6 +1,6 @@
 import Card from "../../components/companyApproved/Card";
 import Layout from "../../components/Layout";
-import Breadcrumbs from "../../components/Breadcrumbs";
+import Breadcrumbs from "../../components/companyApproved/Breadcrumbs";
 import Modal from "../../components/companyApproved/Modal";
 import { useState } from "react";
 import Pagination from "../../components/companyApproved/Pagination";
