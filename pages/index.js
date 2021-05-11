@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 import Layout from "../components/Layout";
-import PendingCompanyService from "../services/pendingCompanyService";
+import PendingCompanyService from "../services/PendingCompanyService";
 
 export default function Home(pendingCompanies) {
     return (
