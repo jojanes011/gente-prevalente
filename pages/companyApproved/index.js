@@ -5,7 +5,7 @@ import Modal from "../../components/companyApproved/Modal";
 import { useState } from "react";
 import Pagination from "../../components/companyApproved/Pagination";
 import Buttons from "../../components/companyApproved/Buttons";
-import PendingCompanyService from "../../services/pendingCompanyService";
+import PendingCompanyService from "../../services/PendingCompanyService";
 
 export default function CompanyApproved(companies) {
     const [openModal, setOpenModal] = useState(false);
