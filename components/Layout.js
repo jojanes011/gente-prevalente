@@ -5,7 +5,7 @@ export const siteTitle = "Gente PreValente";
 
 export default function Layout({ children, className }) {
     return (
-        <div className={`tw-container bg-gray-200`}>
+        <div className={`font-sans w-full bg-gray-200`}>
             <Head>
                 <meta name='og:title' content={siteTitle} key='title' />
                 <link rel='icon' href='/favicon.ico' />
